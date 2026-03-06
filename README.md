@@ -43,7 +43,6 @@ triển **Back‑end với Python/Django**.
 ### Order Management
 
 -   Xem lịch sử mua hàng
--   Xem chi tiết đơn hàng
 
 ------------------------------------------------------------------------
 
@@ -53,7 +52,6 @@ triển **Back‑end với Python/Django**.
 
 -   Python
 -   Django
--   Django REST Framework
 
 ### Frontend
 
@@ -63,12 +61,12 @@ triển **Back‑end với Python/Django**.
 
 ### Database
 
--   SQLite / PostgreSQL
+-   SQLite 
 
 ### Tools
 
 -   Git
--   Postman
+
 
 ------------------------------------------------------------------------
 
@@ -86,7 +84,7 @@ triển **Back‑end với Python/Django**.
     │   └── quản lý giỏ hàng
     │
     ├── orders
-    │   └── quản lý đơn hàng và lịch sử mua
+    │   └── lịch sử mua
     │
     └── vouchers
         └── hệ thống mã giảm giá
@@ -134,6 +132,8 @@ pip install -r requirements.txt
 Chạy server
 
 ``` bash
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 ```
 
@@ -141,5 +141,5 @@ python manage.py runserver
 
 ## Author
 
-**Thanh**\
+**ThanhNhan**\
 Backend Developer (Python/Django)
