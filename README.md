@@ -218,6 +218,7 @@ Then access:
 
 ```
 
+## Home Page
 ![Home Page](imagedemo/home.png)
 ![Login Page](imagedemo/login.png)
 ![Signup Page](imagedemo/signup.png)
