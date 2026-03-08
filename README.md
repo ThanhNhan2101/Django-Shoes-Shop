@@ -1,145 +1,259 @@
-# Shoe Store Website 👟
+Dưới đây là **một file `README.md` hoàn chỉnh, chuyên nghiệp hơn và phù hợp để đưa lên GitHub portfolio của một Backend Developer (Python/Django)**. Bạn chỉ cần **copy toàn bộ và dán vào `README.md`**.
 
-## Introduction
+---
 
-Shoe Store Website là một dự án web thương mại điện tử cho phép người
-dùng tìm kiếm, xem và mua giày trực tuyến. Hệ thống cung cấp các chức
-năng cơ bản của một website bán hàng như đăng ký, đăng nhập, xem sản
-phẩm, quản lý giỏ hàng và thanh toán.
+```markdown
+# 👟 Shoe Store Website
 
-Dự án được xây dựng nhằm mục đích luyện tập và thể hiện kỹ năng phát
-triển **Back‑end với Python/Django**.
+## 📌 Introduction
 
-------------------------------------------------------------------------
+**Shoe Store Website** is an e-commerce web application that allows users to browse, search, and purchase shoes online.
 
-## Features
+The system provides core e-commerce functionalities such as user authentication, product browsing, shopping cart management, and order checkout.
 
-### Authentication
+This project was developed to practice and demonstrate **Back-end development skills using Python and Django**.
 
--   Đăng ký tài khoản
--   Đăng nhập / Đăng xuất
--   Chỉnh sửa thông tin cá nhân
+---
 
-### Product Management
+# 🚀 Features
 
--   Xem danh sách sản phẩm
--   Xem chi tiết sản phẩm
--   Lọc sản phẩm theo nhiều tiêu chí
+## 🔐 Authentication
 
-### Shopping Cart
+- User registration
+- User login / logout
+- Edit user profile information
 
--   Thêm sản phẩm vào giỏ hàng
--   Xem giỏ hàng
--   Cập nhật số lượng sản phẩm
--   Xóa sản phẩm khỏi giỏ hàng
+## 👟 Product Management
 
-### Checkout
+- View product list
+- View product details
+- Filter products based on different criteria
 
--   Xem tổng tiền đơn hàng
--   Nhập thông tin cá nhân
--   Áp dụng mã giảm giá (voucher)
--   Xác nhận thanh toán
+## 🛒 Shopping Cart
 
-### Order Management
+- Add products to cart
+- View cart
+- Update product quantity
+- Remove products from cart
 
--   Xem lịch sử mua hàng
+## 💳 Checkout
 
-------------------------------------------------------------------------
+- View total order price
+- Enter personal information
+- Apply discount voucher
+- Confirm order payment
 
-## Technologies Used
+## 📦 Order Management
 
-### Backend
+- View order history
+- Track purchased products
 
--   Python
--   Django
+---
 
-### Frontend
+# 🛠️ Technologies Used
 
--   HTML
--   CSS
--   JavaScript
+## Backend
 
-### Database
+- Python
+- Django
 
--   SQLite 
+## Frontend
 
-### Tools
+- HTML
+- CSS
+- JavaScript
 
--   Git
+## Database
 
+- SQLite
 
-------------------------------------------------------------------------
+## Tools
 
-## Project Structure
+- Git
+- GitHub
 
-    shoe-store
-    │
-    ├── users
-    │   └── quản lý đăng nhập, đăng ký, thông tin người dùng
-    │
-    ├── products
-    │   └── quản lý sản phẩm và filter
-    │
-    ├── cart
-    │   └── quản lý giỏ hàng
-    │
-    ├── orders
-    │   └── lịch sử mua
-    │
-    └── vouchers
-        └── hệ thống mã giảm giá
+---
 
-------------------------------------------------------------------------
+# 📂 Project Structure
 
-## Main User Flow
-
-1.  Người dùng đăng ký hoặc đăng nhập vào hệ thống
-2.  Người dùng xem danh sách sản phẩm
-3.  Người dùng lọc sản phẩm theo nhu cầu
-4.  Người dùng thêm sản phẩm vào giỏ hàng
-5.  Người dùng kiểm tra giỏ hàng
-6.  Người dùng tiến hành thanh toán
-7.  Người dùng xem lịch sử đơn hàng
-
-------------------------------------------------------------------------
-
-## Installation
-
-Clone project
-
-``` bash
-git clone https://github.com/yourusername/shoe-store.git
 ```
 
-Tạo virtual environment
+shoe-store
+│
+├── users
+│ └── user authentication and profile management
+│
+├── products
+│ └── product management and filtering
+│
+├── cart
+│ └── shopping cart management
+│
+├── orders
+│ └── order history management
+│
+└── vouchers
+└── discount voucher system
 
-``` bash
+```
+
+---
+
+
+
+# 🔄 Main User Flow
+
+1. User registers or logs into the system
+2. User browses available products
+3. User filters products based on preferences
+4. User adds products to the shopping cart
+5. User reviews the cart
+6. User proceeds to checkout
+7. User can view order history
+
+---
+
+## Demo 
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Register Page
+![Register Page](screenshots/register.png)
+
+### Task List
+![Task List](screenshots/tasks.png)
+
+### Completed Tasks
+![Completed Tasks](screenshots/completed_tasks.png)
+
+
+# ⚙️ Installation
+
+## 1️⃣ Clone the repository
+
+```
+
+git clone [https://github.com/yourusername/shoe-store.git](https://github.com/yourusername/shoe-store.git)
+
+```
+
+## 2️⃣ Navigate to project folder
+
+```
+
+cd shoe-store
+
+```
+
+## 3️⃣ Create a virtual environment
+
+```
+
 python -m venv venv
+
 ```
 
-Kích hoạt môi trường
+## 4️⃣ Activate the virtual environment
 
-``` bash
+Windows:
+
+```
+
 venv\Scripts\activate
+
 ```
 
-Cài đặt dependencies
+Mac/Linux:
 
-``` bash
+```
+
+source venv/bin/activate
+
+```
+
+## 5️⃣ Install dependencies
+
+```
+
 pip install -r requirements.txt
+
 ```
 
-Chạy server
+## 6️⃣ Apply migrations
 
-``` bash
+```
+
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver
+
 ```
 
-------------------------------------------------------------------------
+## 7️⃣ Run the development server
 
-## Author
+```
 
-**ThanhNhan**\
-Backend Developer (Python/Django)
+python manage.py runserver
+
+```
+
+Open in browser:
+
+```
+
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+```
+
+---
+
+# 🧪 Default Admin Access (Optional)
+
+If you want to create an admin account:
+
+```
+
+python manage.py createsuperuser
+
+```
+
+Then access:
+
+```
+
+[http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+
+```
+
+---
+
+# 📸 Screenshots
+
+You can add screenshots of your project here.
+
+Example:
+
+```
+
+![Home Page](screenshots/home.png)
+
+```
+
+---
+
+# 🔮 Future Improvements
+
+- Online payment integration
+- Product review and rating system
+- Email notifications
+- REST API integration
+- Deploy to cloud (AWS / Docker)
+
+---
+
+# 👨‍💻 Author
+
+**ThanhNhan**
+
+Backend Developer (Python / Django)
+
