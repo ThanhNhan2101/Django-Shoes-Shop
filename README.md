@@ -113,20 +113,6 @@ shoe-store
 
 ---
 
-## Demo 
-
-### Login Page
-![Login Page](screenshots/login.png)
-
-### Register Page
-![Register Page](screenshots/register.png)
-
-### Task List
-![Task List](screenshots/tasks.png)
-
-### Completed Tasks
-![Completed Tasks](screenshots/completed_tasks.png)
-
 
 # ⚙️ Installation
 
@@ -134,7 +120,7 @@ shoe-store
 
 ```
 
-git clone [https://github.com/yourusername/shoe-store.git](https://github.com/yourusername/shoe-store.git)
+git clone [https://github.com/ThanhNhan2101/Django-Shoes-Shop](https://github.com/ThanhNhan2101/Django-Shoes-Shop)
 
 ```
 
@@ -229,13 +215,20 @@ Then access:
 
 # 📸 Screenshots
 
-You can add screenshots of your project here.
-
-Example:
 
 ```
 
-![Home Page](screenshots/home.png)
+![Home Page](imagedemo/home.png)
+![Login Page](imagedemo/login.png)
+![Signup Page](imagedemo/signup.png)
+![Filter Page](imagedemo/filterpage.png)
+![Detail View](imagedemo/detailview.png)
+![Card View](imagedemo/cardview.png)
+![Checkout View](imagedemo/checkoutview.png)
+![Order history View](imagedemo/orderhistoryview.png)
+![User profile View](imagedemo/userprofile.png)
+![Edit user profile View](imagedemo/edituserprofile.png)
+![Admin view](imagedemo/adminsite.png)
 
 ```
 
