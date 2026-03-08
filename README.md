@@ -220,15 +220,25 @@ Then access:
 
 ## Home Page
 ![Home Page](imagedemo/home.png)
+## Login Page
 ![Login Page](imagedemo/login.png)
+## Signup Page
 ![Signup Page](imagedemo/signup.png)
+## Filter Page
 ![Filter Page](imagedemo/filterpage.png)
+## Detail View
 ![Detail View](imagedemo/detailview.png)
+## Card View
 ![Card View](imagedemo/cardview.png)
+## Checkout View
 ![Checkout View](imagedemo/checkoutview.png)
+## Order history View
 ![Order history View](imagedemo/orderhistoryview.png)
+## User profile View
 ![User profile View](imagedemo/userprofile.png)
+## Edit user profile View
 ![Edit user profile View](imagedemo/edituserprofile.png)
+## Admin site View
 ![Admin view](imagedemo/adminsite.png)
 
 ```
